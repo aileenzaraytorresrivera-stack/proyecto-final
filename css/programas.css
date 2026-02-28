@@ -1,0 +1,116 @@
+/* ===== RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#dcdcdc;
+}
+
+/* ===== HEADER ===== */
+header{
+    background: linear-gradient(to right, #1f2eff, #1b00b3);
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 50px;
+}
+
+.logo{
+    width:120px;
+    height:30px;
+    background:#e5e5e5;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li{
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* ===== CONTENIDO ===== */
+main{
+    padding:40px 80px;
+}
+
+.titulo{
+    text-align:center;
+    font-size:28px;
+    margin-bottom:40px;
+}
+
+.item{
+    display:flex;
+    align-items:center;
+    margin-bottom:30px;
+    flex-wrap: nowrap;
+}
+
+.cuadro{
+    width:80px;
+    height:80px;
+    margin-right:20px;
+}
+
+.imgprogramas{
+    width: 80px;
+    height:80px;
+
+}
+
+.texto{
+    width:250px;
+    font-size:22px;
+}
+
+.barra{
+    flex:1;
+    height:25px;
+}
+
+/* COLORES ESPECIFICOS */
+.azul{ background:#1f2eff; }
+.rojo{ background:#e60000; }
+.gris{ background:#bfbfbf; }
+.negro{ background:#000; }
+.rosado{ background:#cc66bb; }
+
+/* ===== FOOTER ===== */
+footer{
+    background: linear-gradient(to right, #1f2eff, #1b00b3);
+    height:90px;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding-left:60px;
+    margin-top:40px;
+}
+
+.red{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+    font-size:20px;
+}
+
+.icono{
+    width:50px;
+    height:50px;
+    background:#e5e5e5;
+}
+
+.smallicono{
+    width: 20px;
+    height: 20px;
+}

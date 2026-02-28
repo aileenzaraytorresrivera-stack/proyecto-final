@@ -1,0 +1,70 @@
+
+
+.logo-box{
+    width:120px;
+    height:30px;
+    background:#cfcfcf;
+}
+
+
+/* CONTENIDO */
+.contenido{
+    background: var(--gris-fondo);
+    padding:40px;
+    min-height:420px;
+}
+
+/* TITULOS */
+.fila-titulos{
+    display:flex;
+    gap:55px;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+/* CUADROS */
+.fila-cuadros{
+    display:flex;
+    gap:40px;
+}
+
+.cuadro{
+    width:170px;
+    height:160px;
+}
+
+/* COLORES DE CUADROS */
+.azul{
+    background: var(--azul-principal);
+}
+
+.gris{
+    background: var(--gris-cuadro);
+}
+
+.rojo{
+    background: var(--rojo);
+}
+
+.fucsia{
+    background: var(--fucsia);
+}
+
+.negro{
+    background: var(--negro);
+}
+
+
+.redes{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:white;
+    font-size:16px;
+}
+
+.icono{
+    width:30px;
+    height:25px;
+    background:#cfcfcf;
+}
